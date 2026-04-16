@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand */
+  --color-primary: #f97316; /* main orange (logo, buttons, tags) */
+  --color-primary-soft: #ffedd5; /* light orange for subtle backgrounds */
+  --color-primary-strong: #dc2626; /* red end of the gradient (cta, footer) */
+
+  /* Text */
+  --color-text-main: #111827; /* almost black for headings/body */
+  --color-text-muted: #6b7280; /* secondary text */
+  --color-text-on-primary: #ffffff; /* text on orange/red */
+
+  /* Surface / Backgrounds */
+  --color-bg-page: #fff7ed; /* warm off‑white page background */
+  --color-bg-card: #ffffff; /* cards */
+  --color-bg-elevated: #fef3c7; /* soft panels like “Powered by…” section */
+
+  /* Borders / Lines */
+  --color-border-subtle: #fee2e2; /* card/tag borders */
+  --color-border-strong: #f97316;
+
+  /* Utility / Semantic */
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+  --color-warning: #fbbf24;
+
+  /* Gradients as background images */
+  --background-image-header: linear-gradient(to right, #fee2e2, #fffbeb);
+  --background-image-footer: linear-gradient(to right, #f97316, #e11d48);
+  --background-image-card: linear-gradient(to bottom, #fff7ed, #fee2e2);
+}
