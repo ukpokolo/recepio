@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 type ButtonVariant = "primary" | "outline";
 type ButtonSize = "sm" | "md" | "lg";
